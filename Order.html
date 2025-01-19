@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ORDER</title>
+    </head>
+    <body>
+        <h1>Welcome to Our Coffee Shop</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="C:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\project1\WEEKLY TASK/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\project1\WEEKLY TASK/menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\project1\WEEKLY TASK/Order.html">Order</a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\niyos\OneDrive\Documents\Tech Tonic Africa\project1\WEEKLY TASK/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="order">
+            <h2>Order Now</h2>
+            <form action="/submit" method="post"></form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required="">
+            <br>
+            <label for="coffee">Choose your coffee:</label>
+            <select id="coffee" name="coffee">
+                <option value="espresso">Espresso</option>
+                <option value="americano">Americano</option>
+                <option value="latte">Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="mocha">Mocha</option>
+            </select>
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required="">
+            <br>
+            <button type="submit">Order</button>
+        </form>
+    
+        </section>
+        <footer>
+            <h2>Contact Us</h2>
+            <p>Email: info@coffeeshop.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </footer>
+    </body>
+</html>
